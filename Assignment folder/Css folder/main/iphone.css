@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: palevioletred;
+}
+.section-2-input1 {
+    font-size: 30px;
+}
+ 
+.sec-3-gb h2 {
+    font-size: 2em;
+}

@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section1-container {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.section1-tablet {
+  display: none;
+}
+.container {
+  width: 100%;
+}
+.section1-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.section1-main img {
+  width: 50px;
+  margin-left: 5%;
+}
+.btn-container {
+  position: relative;
+  display: inline-block;
+}
+.btn-container {
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  width: 220px;
+}
+.btn-dropdown {
+  min-width: 200px;
+  background-color: #000000;
+  display: none;
+  position: absolute;
+  left: 30px;
+  top: 80%;
+}
+.btn-container:hover .btn-dropdown {
+  display: inline-block;
+}
+
+.btn-dropdown a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid white;
+  text-align: center;
+}
+.btn-dropdown a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.sec-1-a-btn {
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  width: 200px;
+}
+
+.head-btn1 {
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+}
+.head-btn2 {
+  width: 220px;
+  padding: 20px 30px;
+  margin: 0 20px;
+  margin-right: 50px;
+  border-radius: 30px;
+  background-color: rgb(178, 178, 178);
+  border: 3px solid rgb(178, 178, 178);
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+}
+
+/* section 2 */
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 40vh;
+  background-color: black;
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 100%;
+}
+.section2-input2 {
+  display: block;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(241, 230, 230);
+  font-weight: 900;
+  font-size: 150px;
+  text-align: end;
+  letter-spacing: 0.95px;
+  line-height: 70px;
+  font-family: "Noto Sans JP";
+  padding: 20px;
+  padding: 60px;
+}
+
+.section2-input1 {
+  display: block;
+  color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  font-weight: 900;
+  width: 700px;
+  font-size: 120px;
+  letter-spacing: 0.95px;
+  line-height: 70px;
+  font-family: "Noto Sans JP";
+  padding: 20px;
+  padding: 60px;
+}
+
+.section2-input2:hover {
+  color: white;
+}
+/* section 3 starts here */
+.section3 {
+  height: 20vh;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  border: 4px solid black;
+  overflow-x: scroll;
+}
+
+.section3 div {
+  height: fit-content;
+  margin: 40px;
+  margin-left: 10px;
+  padding: 20px;
+  color: black;
+  font-size: 40px;
+  border: 4px solid black;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bolder;
+}
+.section3 div:hover {
+  color: white;
+  background-color: black;
+}
+/* sectio 4 */
+.section4 {
+  height: 15vh;
+}
+.section4-main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bolder;
+  align-items: center;
+  height: 15vh;
+}
+.section4-main select {
+  border: 0;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+/* section 5 */
+.section5-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  width: 90%;
+  margin: auto;
+}
+.set-5 {
+  margin: 60px;
+  margin-top: -60px;
+}
+
+.set-5 > * {
+  text-align: start;
+  width: 80%;
+}
+.set5-h3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 20px;
+}
+.set-5-h4 {
+  display: flex;
+  gap: 10px;
+}
+.set-5-h4 h4 {
+  border: 4px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 20px;
+}
+.set-5 h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  /* ff-icon: 30px; */
+}
+.set-5 p {
+  font-size: 20px;
+  font-weight: bolder;
+  /* ff-icon: 30px; */
+}
+.c-b-5 {
+  background-color: rgba(252, 249, 242, 0.897);
+}
+.sec-5-move {
+  width: 80%;
+  margin: auto;
+}
+
+.section5-main2 {
+  display: none;
+}
+.section5-main3 {
+  display: none;
+}
+.remove-5 {
+  display: none;
+}
+
+/* section 6 part */
+.section6 {
+  height: 40vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section6 {
+  /* width: ; */
+  padding: 30px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  /* border-radius: 50px; */
+}
+
+.section6 button {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  font-family: Qratesis, "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  width: 300px;
+  padding:20px;
+}
+
+
+.footer-con-1 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 70px;
+  padding-top: 40px;
+  /* ff-icon: 40px; */
+}
+.footer-con-1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.footer-con-1 h2 {
+  color: white;
+  font-size: 60px;
+}
+.section8-container {
+  background-color: black;
+}
+/* section 8B */
+.section-8b {
+  height: 40vh;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-8b-img img {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.footer-icone {
+  color: white;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.footer-a a {
+  text-decoration: none;
+  color: white;
+  gap: 30px;
+  font-size: 30px;
+}
+
+.foot-2b-icone {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  text-align: end;
+}
+.footer-select {
+  padding: 20px;
+  width: 200px;
+  align-self: flex-end;
+}
+
+/* footer for small screen */
+
+.footer-small {
+  height: 40vh;
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-small-sec1 {
+  width: 90%;
+  margin: auto;
+}
+.footersmall-icone {
+  color: white;
+  font-size: 60px;
+  margin: 40px;
+}
+.footer-select-small {
+  width: 90%;
+  padding: 20px;
+  border: 5px solid white;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+.foot-a-small a {
+  color: white;
+  text-decoration: none;
+  padding: 80px;
+  font-size: 20px;
+}
+.copylogo {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.footer-small {
+  display: none;
+}
